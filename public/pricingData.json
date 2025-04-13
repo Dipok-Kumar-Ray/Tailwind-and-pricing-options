@@ -1,46 +1,98 @@
 [
-    {
-      "id": 1,
-      "name": "Basic Plan",
-      "price": "$29/month",
-      "description": [
-        "Access to gym equipment",
-        "1 personal training session",
-        "Locker access",
-        "Free Wi-Fi",
-        "Open 6 days a week",
-        "Access to fitness app"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Standard Plan",
-      "price": "$49/month",
-      "description": [
-        "All Basic features",
-        "4 personal training sessions",
-        "Access to group classes",
-        "Nutrition consultation",
-        "Free gym merchandise",
-        "Priority locker service",
-        "Monthly fitness assessment"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Premium Plan",
-      "price": "$79/month",
-      "description": [
-        "All Standard features",
-        "Unlimited personal training",
-        "VIP lounge access",
-        "Priority booking for classes",
-        "Dedicated fitness coach",
-        "Sauna & spa access",
-        "Massage therapy sessions",
-        "24/7 gym access",
-        "Personalized diet plan"
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$29/month",
+    "description": "Perfect for beginners who want access to essential gym facilities without extra services.",
+    "features": [
+      "Access to gym equipment",
+      "1 personal training session",
+      "Locker access",
+      "Free Wi-Fi",
+      "Open 6 days a week",
+      "Access to fitness app",
+      "Basic workout guide",
+      "Access during daytime hours only"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "$49/month",
+    "description": "Ideal for regular gym-goers who want group classes and personalized support.",
+    "features": [
+      "All Basic features",
+      "4 personal training sessions",
+      "Access to group classes",
+      "Nutrition consultation",
+      "Free gym merchandise",
+      "Priority locker service",
+      "Monthly fitness assessment",
+      "Access from 6AM to 10PM",
+      "Guest pass (1 per month)"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "$79/month",
+    "description": "The ultimate plan for serious fitness enthusiasts who want full access and premium services.",
+    "features": [
+      "All Standard features",
+      "Unlimited personal training",
+      "VIP lounge access",
+      "Priority booking for classes",
+      "Dedicated fitness coach",
+      "Sauna & spa access",
+      "Massage therapy sessions",
+      "24/7 gym access",
+      "Personalized diet plan",
+      "Private locker room",
+      "Free entry to fitness events"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Couple Plan",
+    "price": "$99/month",
+    "description": "Designed for couples who want to train together and stay motivated.",
+    "features": [
+      "All Premium features for two",
+      "Partner workout sessions",
+      "Special couple group classes",
+      "Discount on couple merchandise",
+      "Shared locker option",
+      "Couple diet & fitness consultation"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Student Plan",
+    "price": "$25/month",
+    "description": "Affordable plan specially made for students with valid ID.",
+    "features": [
+      "Access to gym equipment",
+      "2 group classes per week",
+      "Locker access",
+      "Free Wi-Fi",
+      "Flexible timings during holidays",
+      "Student-only events",
+      "ID verification required"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Senior Plan",
+    "price": "$35/month",
+    "description": "Gentle fitness program designed for members aged 60 and above.",
+    "features": [
+      "Low-impact workout sessions",
+      "Senior group classes",
+      "Assisted training support",
+      "Free health checkup (monthly)",
+      "Sauna access (twice a week)",
+      "Wheelchair-friendly equipment",
+      "Nutrition tips for aging well"
+    ]
+  }
+]
