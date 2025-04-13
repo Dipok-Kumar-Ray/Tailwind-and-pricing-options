@@ -1,70 +1,73 @@
-import React, { useState } from 'react';
-import Link from './Link';
-import { Menu } from 'lucide-react';
+import React, { useState } from "react";
+import Link from "./Link";
+import { Menu, X } from "lucide-react";
 
 const navigationLinks = [
-    {
-      id: 1,
-      name: "Home",
-      path: "/home"
-    },
-    {
-      id: 2,
-      name: "About",
-      path: "/about"
-    },
-    {
-      id: 3,
-      name: "Services",
-      path: "/services"
-    },
-    {
-      id: 4,
-      name: "Contact",
-      path: "/contact"
-    },
-    {
-      id: 5,
-      name: "Blog",
-      path: "/blog"
-    }
-  ];
-  
+  {
+    id: 1,
+    name: "Home",
+    path: "/home",
+  },
+  {
+    id: 2,
+    name: "About",
+    path: "/about",
+  },
+  {
+    id: 3,
+    name: "Services",
+    path: "/services",
+  },
+  {
+    id: 4,
+    name: "Contact",
+    path: "/contact",
+  },
+  {
+    id: 5,
+    name: "Blog",
+    path: "/blog",
+  },
+];
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
 
-    const  [open, setOpen] = useState(false) 
+  const links = navigationLinks.map((route) => (
+    <Link key={route.id} route={route}></Link>
+  ));
 
-
-    return (
-  <nav className='flex justify-between mx-10'>
-   <span className='flex' onClick={()=> setOpen(!open)}>
-    <Menu className='md:hidden'></Menu>
-    {/* <X /> */}
-    
-   <h2>My Navbar</h2>
-   </span >
+  return (
+    <nav className="flex justify-between mx-10 mt-9">
+      <span className="flex" onClick={() => setOpen(!open)}>
 
         {
-            open ? 'open' : 'close'
+
+        open ? (<X className="md:hidden"></X>) : (<Menu className="md:hidden"></Menu>)
+
         }
 
-    <ul className='flex'>
-        {
-           navigationLinks.map(route => <Link key={route.id}  route={route}></Link>)
-        }
-    </ul>
+        <ul className={`md:hidden absolute duration-1000
+          ${open ? 'top-8' : '-top-40'}
+           bg-amber-100`}>
+          
+          {links}
+          
+          </ul>
 
+        <h2>My Navbar</h2>
+      </span>
 
-    {/* <ul className='flex '>
+      <ul className="hidden md:flex">{links}</ul>
+
+      {/* <ul className='flex '>
     <li><a href="/home">Home</a></li>
     <li><a href="/blog">Blog</a></li>
     <li><a href="/about">About</a></li>
     </ul> */}
-    <button>Sign In</button>
-  </nav>
-    );
+      <button>Sign In</button>
+    </nav>
+  );
 };
 
-export default Navbar
-;
+export default Navbar;

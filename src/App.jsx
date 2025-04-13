@@ -1,9 +1,7 @@
 
 import './App.css'
-import DaisyNavbar from '../DaisyNav/DaisyNavbar'
-
-import Simple from '../DaisyNav/Simple'
 import Navbar from '../DaisyNav/Navbar'
+import DaisyNavbar from '../DaisyNav/DaisyNavbar'
 
 function App() {
  
@@ -11,8 +9,13 @@ function App() {
   return (
     <>
     <header>
-      
+      <Navbar></Navbar>
+      <DaisyNavbar></DaisyNavbar>
     </header>
+    
+    <main>
+
+    </main>
     </>
   )
 }
