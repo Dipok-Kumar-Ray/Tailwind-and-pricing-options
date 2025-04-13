@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "price": "$29/month",
+      "description": [
+        "Access to gym equipment",
+        "1 personal training session",
+        "Locker access",
+        "Free Wi-Fi",
+        "Open 6 days a week",
+        "Access to fitness app"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Plan",
+      "price": "$49/month",
+      "description": [
+        "All Basic features",
+        "4 personal training sessions",
+        "Access to group classes",
+        "Nutrition consultation",
+        "Free gym merchandise",
+        "Priority locker service",
+        "Monthly fitness assessment"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Plan",
+      "price": "$79/month",
+      "description": [
+        "All Standard features",
+        "Unlimited personal training",
+        "VIP lounge access",
+        "Priority booking for classes",
+        "Dedicated fitness coach",
+        "Sauna & spa access",
+        "Massage therapy sessions",
+        "24/7 gym access",
+        "Personalized diet plan"
+      ]
+    }
+  ]
+  
