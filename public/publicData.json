@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "name": "Rahim",
+      "marks": {
+        "physics": 85,
+        "chemistry": 78,
+        "math": 92
+      }
+    },
+    {
+      "id": 2,
+      "name": "Karim",
+      "marks": {
+        "physics": 74,
+        "chemistry": 81,
+        "math": 69
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sumaiya",
+      "marks": {
+        "physics": 90,
+        "chemistry": 88,
+        "math": 94
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tariq",
+      "marks": {
+        "physics": 68,
+        "chemistry": 72,
+        "math": 70
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nusrat",
+      "marks": {
+        "physics": 95,
+        "chemistry": 91,
+        "math": 89
+      }
+    },
+    {
+      "id": 6,
+      "name": "Fahim",
+      "marks": {
+        "physics": 60,
+        "chemistry": 65,
+        "math": 58
+      }
+    },
+    {
+      "id": 7,
+      "name": "Lamia",
+      "marks": {
+        "physics": 82,
+        "chemistry": 79,
+        "math": 85
+      }
+    },
+    {
+      "id": 8,
+      "name": "Sajid",
+      "marks": {
+        "physics": 77,
+        "chemistry": 74,
+        "math": 80
+      }
+    },
+    {
+      "id": 9,
+      "name": "Maliha",
+      "marks": {
+        "physics": 88,
+        "chemistry": 86,
+        "math": 91
+      }
+    }
+  ]
+  
